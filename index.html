@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="pics/favicon.png">
+    <title>HostQuick Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="container-fluid p-0">
+
+      <!------------ Carousel Section ------------->
+
+        <div class="header-bg">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner pb-3">
+              <div class="carousel-item active">
+                <img src="pics/1.jpg" class="img-fluid vh-100 vw-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/2.jpg" class="img-fluid vh-100 vw-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/3.jpg" class="img-fluid vh-100 vw-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/4.jpg" class="img-fluid vh-100 vw-100" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------- Header Text ------------>
+
+        <div class="text-book">
+          <p class="mb-0">We</p>
+          <h1>Provide</h1>
+          <h2><span class="type"></span></h2>
+          <a href="#pakage" class="btn">Get Access</a>
+           <script type="text/javascript" src="script/typed.js"></script>
+           <script type="text/javascript">
+             var typed = new Typed(".type",{
+               strings: [
+                 "24/7 Service",
+                 "NVMe SSD Hosting",
+                 "SSL Certificate",
+                 "HTTPS Certificate",
+                 "Cpanel",
+                 "eMail Service",
+                 "Auto Backups"
+               ],
+                 typeSpeed: 70,
+                 backSpeed: 70,
+                 loop: true
+             });
+           </script>
+        </div>
+
+            <!------------- Nav Section ----------->
+            <div class="nav">
+              <div class="nav-img">
+                  <a class="" href="#"><img src="pics/logo.png" class="img-fluid"></a>
+              </div>
+              <div class="nav-link" id="navLink">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="">Sign In</a></li>
+                      <li><a href="">Sign Up</a></li>
+                      <li><a href="#pakage">Pakages</a></li>
+                      <li><a href="#request-access">Request Access</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </div>
+                  <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+      
+              <script>
+                  var navLink = document.getElementById("navLink");
+                  function showMenu(){
+                      navLink.style.right = "0";
+                  }
+                  function hideMenu(){
+                      navLink.style.right = "-200px";
+                  }
+                </script> 
+    </header>
+
+<div class="devider"></div>
+
+<!---------- Service Info ------------>
+    <div class="container-fluid service-info general-bg">
+      <div class="row">
+        <div class="col-md-8 col-12 d-flex align-items-center px-md-5 px-4 py-3">
+          <div class="service-text">
+            <h3>Great Compatibility and Service</h3>
+            <p class="m-0">We provides best and fast NVMe SSD Hosting with addons. Also have premium themes.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 py-md-0 pb-3">
+           <img src="pics/service.png" class="service-img img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="devider"></div>
+
+    <div class="container-fluid service-info general-bg">
+      <div class="row d-flex">
+        <div class="col-md-2 col-12 pb-md-3 pb-3 ps-md-0 d-flex justify-content-center">
+          <img src="pics/uptime.png" class="service-img img-fluid w-75" alt="">
+        </div>
+        <div class="col-md-10 col-12 d-flex align-items-center justify-content-end px-md-5 px-4 py-3">
+          <div class="service-text text-end">
+            <h3>24/7 Customer Support and Uptime</h3>
+            <p class="m-0">We provides 24/7 customer service and guarantees always uptime.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="devider"></div>
+
+    <div class="container-fluid service-info general-bg">
+      <div class="row">
+        <div class="col-md-10 col-12 d-flex align-items-center px-md-5 px-4 py-3">
+          <div class="service-text">
+            <h3>Best prices available on the market you will find</h3>
+            <p class="m-0">We are giving the lowest possible and affordable rate.</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-12 py-md-3 pb-3 cost-img d-flex justify-content-center">
+           <img src="pics/cost2.png" class="service-img img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="devider"></div>
+
+    <!-- Countup Section -->
+
+    
+
+    <div class="count-up general-bg">
+        <div class="count-head text-center py-3 px-2">
+          <h1>We Are Hosting Websites</h1>
+          <span class="line my-1"></span>
+        </div>
+        <div class="row count-body mx-0">
+          <div class="col-md-3 col-12 py-2 text-center">
+            <h1><span class="count">457</span></h1>
+            <h2>E-commerce</h2>
+          </div>
+          <div class="col-md-3 col-12 py-2 text-center">
+            <h1><span class="count">412</span><span>+</span></h1>
+            <h2>International</h2>
+          </div>
+          <div class="col-md-3 col-12 py-2 text-center">
+            <h1><span class="count">3400</span><span>+</span></h1>
+            <h2>Themes</h2>
+          </div>
+          <div class="col-md-3 col-12 py-2 text-center">
+            <h1><span class="count">1950</span><span>+</span></h1>
+            <h2>Plugins</h2>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script>
+      $('.count').counterUp({
+         delay: 10,
+         time: 1700
+      });
+    </script>
+
+    <div class="devider"></div>
+
+    <!-- Pakage Card Section -->
+
+    <div class="pakage-section general-bg pb-4" id="pakage">
+      <div class="pakage-head text-center py-3 px-2">
+        <h1>Our Pakages</h1>
+        <p>Choose a Plan from bellow and get started with your Pakages. You can also buy domains. We support Almost every payment method</p>
+        <span class="line my-1"></span>
+      </div>
+      <div class="row pakage-card mx-0">
+        <div class="col-md-3 col-12 pb-md-0 pb-3">
+          <div class="card-content mx-md-3 card card-white  my-md-3" data-tilt data-tilt-max="30" data-tilt data-tilt-scale="1.1" data-tilt-glare="false">
+            <div class="card-img d-flex justify-content-center">
+              <img src="pics/pakage/1m.png"class="img-fluid w-75" alt="">
+            </div>
+            <div class="card-text text-center">
+              <h4 class="pink">1 Month</h4>
+              <h2>5$</h2>
+              <div class="pakage-des ps-md-5 py-3">
+                <h6 class="text-start">
+                  &#10003 NVMe SSD<br>&#10003 CMS Support <br>&#10003 24/7 uptime<br>&#10003 Premium Themes
+                </h6>
+              </div> 
+              <a class="buy-btn" href="">
+                <button class="read-more mb-4 pink-btn">Buy</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-12 pb-md-0 pb-3">
+          <div class="card-content mx-md-3 card card-pink  my-md-3" data-tilt data-tilt-max="30" data-tilt data-tilt-scale="1.1" data-tilt-glare="false">
+            <div class="card-img d-flex justify-content-center">
+              <img src="pics/pakage/3m.png"class="img-fluid w-75" alt="">
+            </div>
+            <div class="card-text text-center">
+              <h4>3 Month</h4>
+              <h2>12$</h2>
+              <div class="pakage-des ps-md-5 py-3">
+                <h6 class="text-start">
+                  &#10003 NVMe SSD<br>&#10003 CMS Support <br>&#10003 24/7 uptime<br>&#10003 Premium Themes
+                </h6>
+              </div> 
+              <a class="buy-btn" href="">
+                <button class="read-more mb-4 pink-btn">Buy</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-12 pb-md-0 pb-3">
+          <div class="card-content mx-md-3 card card-white  my-md-3" data-tilt data-tilt-max="30" data-tilt data-tilt-scale="1.1" data-tilt-glare="false">
+            <div class="card-img d-flex justify-content-center">
+              <img src="pics/pakage/6m.png"class="img-fluid w-75" alt="">
+            </div>
+            <div class="card-text text-center">
+              <h4 class="pink">6 Month</h4>
+              <h2>22$</h2>
+              <div class="pakage-des ps-md-5 py-3">
+                <h6 class="text-start">
+                  &#10003 NVMe SSD<br>&#10003 CMS Support <br>&#10003 24/7 uptime<br>&#10003 Premium Themes
+                </h6>
+              </div> 
+              <a class="buy-btn" href="">
+                <button class="read-more mb-4 pink-btn">Buy</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-12 pb-md-0 pb-0">
+          <div class="card-content mx-md-3 card card-pink  my-md-3" data-tilt data-tilt-max="30" data-tilt data-tilt-scale="1.1" data-tilt-glare="false">
+            <div class="card-img d-flex justify-content-center">
+              <img src="pics/pakage/1y.png"class="img-fluid w-75" alt="">
+            </div>
+            <div class="card-text text-center">
+              <h4>1 Year</h4>
+              <h2>45$</h2>
+              <div class="pakage-des ps-md-5 py-3">
+                <h6 class="text-start">
+                  &#10003 NVMe SSD<br>&#10003 CMS Support <br>&#10003 24/7 uptime<br>&#10003 Premium Themes
+                </h6>
+              </div> 
+              <a class="buy-btn" href="">
+                <button class="read-more mb-4 pink-btn">Buy</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.4.1/vanilla-tilt.min.js"></script>
+
+    <div class="devider"></div>
+
+    <!-- Access Req Section -->
+    <div class="request general-bg py-4" id="request-access">
+      <div class="text-center px-md-5 px-4">
+        <h1>Request Access</h1>
+        <p>If you have brought One of our pakages but haven't got access to our website or Cpanel yet?</p><br>
+        <p>Then press the button below and fill the form with your information and provide your payment method, Transition ID and your subscription duration in the description box to get access to the site or Cpanel.</p>
+        <span class="line my-1"></span>
+
+        <div class="popup" id="request-popup">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Note</h1><br>
+            <p>Before requesting for access to our website or Cpanel, make sure you have purchased one of our packages.<br><br><br><br><br>Dont send any request without purchasing</p>
+              <a href=""><button class="request-btn mt-1">Request Access</button></a>
+          </div>
+        </div>
+         
+        <button class="request-btn mt-4" onclick="togglePopup()">Request Access</button>
+        </div>
+        <script>
+          
+          function togglePopup(){
+          document.getElementById("request-popup").classList.toggle("active");
+        }
+        </script>
+    </div>
+
+    <div class="devider"></div>
+
+<!-- FAQ Section -->
+
+    <div class="faq general-bg pb-4">
+      <div class="text-center py-3 px-2">
+        <h1 class="pink">FAQ</h1>
+        <p>Frequently Asked Questions</p>
+        <span class="line my-1"></span>
+      </div>
+
+      <div class="accordion-fluid">
+        <div class="accordion"> 
+            <h5>HOW TO BUY PAKAGES?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>Just select your preferred pakage from our packages and hit buy and follow the steps. If any problem occurs contact us </p>
+        </div>
+      
+        <div class="accordion">
+            <h5>DO I GET 24/7 CUSTOMER SERVICE?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>You’ll 100% get our full and 24/7 customer service.</p>
+        </div>
+      
+        <div class="accordion">
+            <h5>IS THERE ANY TRIAL AVAILABLE?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>Yes you can. For that contact with us through WhatsApp or Telegram</p>
+        </div>
+      
+        <div class="accordion">
+            <h5>IS THERE ANY LIFETIME PLAN?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>Yes, you can contact us at Whatsapp or Telegram for That.</p>
+        </div>
+      
+        <div class="accordion">
+            <h5>What storage type I will get?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>You will get super fast NVMe ssd.</p>
+        </div>
+      
+        <div class="accordion">
+            <h5>What kinds of payment method are supported?</h5>
+            <div class="icon"></div>
+        </div>
+        <div class="panel">
+            <p>We support almost all kinds of payment method. Like paypal, skrill, perfectmoney, webmoney, cryptocurrency etc</p>
+        </div>
+      
+      </div>
+      
+      
+      <script src="script/accordion.js"></script>
+    </div>
+          
+    <div class="devider"></div>
+
+    <!-- Contact Section -->
+
+    <div class="contact general-bg pb-4" id="contact">
+      <div class="pakage-head text-center py-3 px-2">
+        <h1>Contact Us</h1>
+        <span class="line my-1"></span>
+      </div>
+
+      <div class="social-menu mt-4 d-flex justify-content-center">
+        <div class="contact-icon me-4">
+          <a class="contact-btn" href=""><img src="pics/phone.png" class="img-fluid"></a>
+        </div>
+        <div class="contact-icon ms-4">
+          <a class="contact-btn" href=""><img src="pics/whatsapp.png" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Live Chat Section -->
+
+    <div class="action" onclick="actionToggle();">
+      <span class="action-img1"><img id="showLayers" src="pics/message.png" alt=""></span>
+      <span class="action-img2"><img id="showLayers" src="pics/cross.png" alt=""></span>
+      <ul>
+        <li><a href=""><i class="fa fa-telegram"></i>Telegram</a></li>
+        <li><a href=""><i class="fa fa-facebook"></i>Facebook</a></li>
+        <li><a href=""><i class="fa fa-twitter"></i>Twitter</a></li>
+      </ul>
+    </div>
+    <script>
+      function actionToggle(){
+        var action = document.querySelector('.action');
+        action.classList.toggle('active')
+      }
+    </script>
+
+    <!-- Pop Up Info -->
+    <div class="popup-info">
+      <div class="box">
+         <div class="img-area">
+           <div class="img">
+           </div>
+         </div>
+         <div class="modal-body">
+           <div class="close">&times;</div>
+           <div class="header">
+              <h2>Connect With Us</h2>
+              <p>Hosting News<br>Great Deals<br>Offer Details<br>And Many More</p>
+              <div class="tg-btn">
+              <a href=""><button class="tg-group">Facebook</button></a>
+              <a href=""><button class="tg-group2">WhatsApp</button></a>
+              <a href=""><button class="tg-group3">Telegram</button></a>
+              </div>
+           </div>
+            <div class="header-2">
+                <h1>Connect With Us</h1>
+                <a href=""><button class="tg-group5">WhatsApp</button></a> 
+            </div>
+      </div>
+    </div>
+    
+    <script src="script/popup.js"></script>
+
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
